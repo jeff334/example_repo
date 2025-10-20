@@ -1,0 +1,92 @@
+#main_header {
+  background-color: black;
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+}
+
+#name {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#introduction {
+  padding: 1rem;
+  color: black;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.ProductContainer {
+  display: grid;
+  grid-template-rows: 50%, 30%, 20%;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  height: auto;
+  gap: 2rem;
+  border: 1px solid black;
+  margin: 10%;
+}
+
+.ProductContainer header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+#row {
+  display: grid;
+  width: 90%;
+  padding: 5%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+}
+.ProductContainer img {
+  width: auto;
+  height: 20rem;
+}
+/*products*/
+
+.name1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-information {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 2.5rem;
+}
+
+.products {
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: 50%;
+  align-items: center;
+}
+
+.products img {
+  max-width: 100%;
+  height: auto;
+  padding: 8rem;
+}
+.ProductContainer img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+a.cart {
+  text-decoration: none;
+  color: white;
+}
+
+#save_info {
+  padding: 10px;
+}
